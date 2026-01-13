@@ -1,0 +1,19 @@
+@use './variables.scss' as v;
+
+:root {
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  color: v.$text;
+  background: v.$bg;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+h1, h2, h3 {
+  letter-spacing: -0.01em;
+}

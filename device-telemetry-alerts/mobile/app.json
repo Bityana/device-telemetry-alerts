@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "Telemetry Alerts",
+    "slug": "telemetry-alerts-mobile",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "platforms": ["ios", "android", "web"],
+    "jsEngine": "hermes"
+  }
+}

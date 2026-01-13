@@ -1,0 +1,86 @@
+@use './styles/variables.scss' as v;
+
+.page {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 16px;
+
+  h1 {
+    margin: 0;
+  }
+}
+
+.sub {
+  margin: 6px 0 0;
+  color: v.$muted;
+}
+
+.panel {
+  border: 1px solid v.$border;
+  border-radius: 12px;
+  padding: 16px;
+  background: v.$panel;
+  margin-bottom: 16px;
+}
+
+.label {
+  display: block;
+  font-size: 12px;
+  color: v.$muted;
+  margin-bottom: 8px;
+}
+
+.row {
+  display: flex;
+  gap: 10px;
+}
+
+.input {
+  flex: 1;
+  border: 1px solid v.$border;
+  border-radius: 10px;
+  padding: 10px 12px;
+  font-size: 14px;
+}
+
+.button, .buttonSecondary {
+  border-radius: 10px;
+  padding: 10px 12px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.button {
+  border: 1px solid v.$border;
+  background: v.$button;
+}
+
+.buttonSecondary {
+  border: 1px solid v.$border;
+  background: transparent;
+}
+
+.error {
+  margin-top: 10px;
+  color: v.$danger;
+}
+
+.main {
+  border: 1px solid v.$border;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.footer {
+  margin-top: 16px;
+  color: v.$muted;
+  font-size: 12px;
+}
